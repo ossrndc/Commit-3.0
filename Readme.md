@@ -181,7 +181,7 @@ Quality > Quantity.
 
 # ⏳ Deadline
 
-Submit your PR before the announced deadline.  
+Submit your PR before the 15-MARCH-2026 deadline.  
 Late submissions will not be considered ❌
 
 ---
@@ -200,3 +200,7 @@ Code smart.
 Push confidently.  
 
 Let the commits begin. 🚀🔥  
+
+
+#### Still any Query ??
+Contact us at Project Lab 4th floor CSIT building
