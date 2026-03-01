@@ -1,17 +1,21 @@
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=Commit-3.0%20Mini%20Hackathon&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:0f2027&height=220&section=header&text=COMMIT-3.0%20MINI%20HACKATHON&fontSize=38&fontColor=00ff99&animation=twinkling&fontAlignY=40&desc=Debug%20%7C%20Fix%20%7C%20Commit%20%7C%20Win&descAlignY=65&descAlign=50" />
 </p>
 
-<h3 align="center">💻 Debug. Fix. Commit. Win. 🚀</h3>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00FF99&center=true&vCenter=true&lines=Initializing+Hackathon...;Scanning+HTML+Errors...;Fixing+Broken+CSS...;Preparing+Pull+Request...;Top+3+Get+Direct+PI+Access+%F0%9F%94%A5" />
+</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Level-Beginner%20Friendly-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-HTML%20%26%20CSS-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Mode-Pull%20Request-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Reward-Direct%20PI-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Theme-Dark%20Mode-000000?style=for-the-badge&logo=github&logoColor=00ff99" />
+  <img src="https://img.shields.io/badge/Challenge-Debug%20Frontend-111111?style=for-the-badge&logo=code&logoColor=00ff99" />
+  <img src="https://img.shields.io/badge/Submission-Pull%20Request-1a1a1a?style=for-the-badge&logo=git&logoColor=00ff99" />
+  <img src="https://img.shields.io/badge/Reward-Direct%20PI-222222?style=for-the-badge&logo=fire&logoColor=00ff99" />
 </p>
 
 ---
+
 
 # 🚀 Commit-3.0 Mini Hackathon
 
