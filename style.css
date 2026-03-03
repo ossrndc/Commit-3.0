@@ -68,8 +68,7 @@ button:hover {
 /* FEATURES */
 .features {
     display: grid;
-    grid-template-columns: repeat(3, 400px);
-    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     padding: 100px 20px;
 }
