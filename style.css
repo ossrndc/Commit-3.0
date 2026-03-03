@@ -6,9 +6,16 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #0d0d0d;
+    background: #000000;
     color: white;
-    overflow-x: hidden;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
 }
 
 /* NAVBAR */
@@ -17,8 +24,10 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
-    background: black;
+    background: #0d0d0d;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
 }
 
@@ -35,6 +44,8 @@ body {
 
 .navbar a:hover {
     color: #00ff99;
+    text-decoration: underline;
+    text-underline-offset: 6px;
 }
 
 /* HERO */
@@ -43,7 +54,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #000, #1a1a1a);
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/hd/b6e0b072897469.5bf6e79950d23.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
 }
 
@@ -68,7 +82,7 @@ button:hover {
 /* FEATURES */
 .features {
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     justify-content: center;
     gap: 30px;
     padding: 100px 20px;
@@ -126,5 +140,5 @@ form button {
 footer {
     padding: 20px;
     text-align: center;
-    background: black;
+    background: #0d0d0d;
 }
