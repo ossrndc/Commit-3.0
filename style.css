@@ -112,9 +112,13 @@ body {
 }
 
 .btn {
+    align-items: center;
     margin-top: 20px;
-    padding: 12px 25px;
+    padding: 14px 30px;
     border: none;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 1rem;
     background: var(--accent);
     cursor: pointer;
     transition: 0.3s;
@@ -124,6 +128,8 @@ body {
 button:hover {
     background: var(--text);
     color: var(--bg);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(62, 161, 153, 0.3);
 }
 
 /* FEATURES */
