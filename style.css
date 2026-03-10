@@ -113,7 +113,7 @@ body {
 
 .btn {
     align-items: center;
-    margin-top: 20px;
+    margin-top: 50px;
     padding: 14px 30px;
     border: none;
     border-radius: 3px;
@@ -134,13 +134,26 @@ button:hover {
 
 /* FEATURES */
 .features {
+    background: var(--surface);
+    margin-top: 12px;
+    font-size: 1.1rem;
+}
+
+.features h2 {
+    text-align: center;
+    padding: 60px 20px 20px;
+    font-family: var(--syne);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.cardgrid { 
     display: grid;
     grid-template-columns: repeat(3, 400px);
     justify-content: center;
     gap: 30px;
-    padding: 100px 20px;
+    padding: 30px 20px;
 }
-
 .card {
     background: #1a1a1a;
     padding: 30px;
@@ -154,7 +167,7 @@ button:hover {
 
 .highlight {
     background: var(--accent);
-    color: var(--text);
+    color: var(--bg);
 }
 
 .card h3 {
