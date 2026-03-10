@@ -23,6 +23,10 @@ body {
     overflow-x: hidden;
 }
 
+.accent-color {
+    color: var(--accent);
+}
+
 /* NAVBAR */
 .navbar {
     display: flex;
@@ -92,6 +96,21 @@ body {
     }
 }
 
+.hero-content h1 {
+    font-family: var(--syne);
+    font-size: 5.5rem;
+    font-weight: 800;
+    line-height: 0.75;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-style: normal;
+    font-size: 1.2rem;
+    color: var(--text);
+}
+
 .btn {
     margin-top: 20px;
     padding: 12px 25px;
@@ -99,6 +118,7 @@ body {
     background: var(--accent);
     cursor: pointer;
     transition: 0.3s;
+    font-family: var(--mono);
 }
 
 button:hover {
