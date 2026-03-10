@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400..800&display=swap');
+
 :root{
     --accent : #00ff99;
     --bg : #0d0d0d;
@@ -44,12 +46,23 @@ body {
 .navbar a {
     color: var(--text);
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 .navbar a:hover {
     color: var(--accent);
 }
 
+.logo {
+    font-family: var(--syne);
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--accent);
+}
+
+.logo span {
+    color: var(--text);
+}
 /* HERO */
 .hero {
     height: 100vh;
