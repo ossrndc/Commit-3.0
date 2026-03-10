@@ -1,13 +1,23 @@
-* {
+:root{
+    --accent : #00ff99;
+    --bg : #0d0d0d;
+    --surface : #1a1a1a;
+    --border : #2a2a2a;
+    --text : white;
+    --syne : 'Syne', sans-serif;
+    --mono : 'Space Mono', monospace;
+}
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: #0d0d0d;
-    color: white;
+    font-family: var(--mono);
+    background: var(--bg);
+    color: var(--text);
     overflow-x: hidden;
 }
 
@@ -19,7 +29,10 @@ body {
     padding: 15px 40px;
     background: black;
     position: fixed;
+    top : 0;
+    z-index: 1000;
     width: 100%;
+    border-bottom: 1px solid var(--border);
 }
 
 .navbar ul {
@@ -29,12 +42,12 @@ body {
 }
 
 .navbar a {
-    color: white;
+    color: var(--text);
     text-decoration: none;
 }
 
 .navbar a:hover {
-    color: #00ff99;
+    color: var(--accent);
 }
 
 /* HERO */
@@ -43,7 +56,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #000, #1a1a1a);
+    background: linear-gradient(to right, var(--bg), var(--surface));
     text-align: center;
 }
 
@@ -55,14 +68,14 @@ body {
     margin-top: 20px;
     padding: 12px 25px;
     border: none;
-    background: #00ff99;
+    background: var(--accent);
     cursor: pointer;
     transition: 0.3s;
 }
 
 button:hover {
-    background: white;
-    color: black;
+    background: var(--text);
+    color: var(--bg);
 }
 
 /* FEATURES */
@@ -86,8 +99,8 @@ button:hover {
 }
 
 .highlight {
-    background: #00ff99;
-    color: black;
+    background: var(--accent);
+    color: var(--text);
 }
 
 .card h3 {
@@ -118,7 +131,7 @@ input {
 form button {
     padding: 10px 20px;
     border: none;
-    background: #00ff99;
+    background: var(--accent);
     cursor: pointer;
 }
 
@@ -126,5 +139,5 @@ form button {
 footer {
     padding: 20px;
     text-align: center;
-    background: black;
+    background: var(--bg);
 }
