@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Commit 3.0 Hard Mode</title>
@@ -8,56 +9,71 @@
 
 <body>
 
-<header class="navbar">
-    <div class="logo">Commit-3.0</div>
-    <nav>
-        <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <header class="navbar">
+        <div class="logo">Commit<span>-3.0</span></div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<section id="hero" class="hero">
-    <div class="hero-content">
-        <h1>Debug. Fix. Dominate.</h1>
-        <p>Prove your frontend skills in Hard Mode.</p>
-        <button class="btn">Start Now</button>
+    <div class="container">
+        <section id="hero" class="slide hero">
+            <div class="hero-content">
+                <h1>Debug. </h1>
+                <h1>Fix.</h1>
+                <h1 class="accent-color">Dominate.</h1>
+                <p>Prove your frontend skills in Hard Mode.</p>
+                <button onclick="location.href='#features'" class="btn">START NOW</button>
+            </div>
+        </section>
+
+        <section id="features" class="slide features">
+
+            <h2>The Challenges</h2>
+            <div class="cardgrid">
+                <div class="card">
+                    <div class="card-icon">🔧</div>
+                    <h3>Broken Layout Logic</h3>
+                    <p>Grid looks fine… until resize.</p>
+                </div>
+
+                <div class="card highlight">
+                    <div class="card-icon">🎨</div>
+                    <h3>CSS Specificity Trap</h3>
+                    <p>Why isn't this styling applying?</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">♿</div>
+                    <h3>Accessibility Issues</h3>
+                    <p>Looks fine. Not accessible.</p>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="contact" class="slide contact-section">
+            <h2>Contact Us</h2>
+            <p>Got feedback or questions? We're listening.</p>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <button>Submit</button>
+            </form>
+        </section>
+
     </div>
-</section>
 
-<section id="features" class="features">
-
-    <div class="card">
-        <h3>Broken Layout Logic</h3>
-        <p>Grid looks fine… until resize.</p>
-    </div>
-
-    <div class="card highlight">
-        <h3>CSS Specificity Trap</h3>
-        <p>Why isn’t this styling applying?</p>
-    </div>
-
-    <div class="card">
-        <h3>Accessibility Issues</h3>
-        <p>Looks fine. Not accessible.</p>
-    </div>
-
-</section>
-
-<section class="contact-section">
-    <h2>Contact Us</h2>
-    <form>
-        <input type="text" placeholder="Your Name">
-        <input type="email" placeholder="Your Email">
-        <button>Submit</button>
-    </form>
-</section>
-
-<footer>
-    <p>© Team-Oss 2026 </p>
-</footer>
+    <footer>
+        <p>© Team-Oss 2026 </p>
+        <p class="accent">// Hard Mode</p>
+    </footer>
 
 </body>
+
 </html>
