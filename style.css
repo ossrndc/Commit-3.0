@@ -137,6 +137,9 @@ button:hover {
     background: var(--surface);
     margin-top: 12px;
     font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h2 {
@@ -260,4 +263,43 @@ footer {
     padding: 20px;
     text-align: center;
     background: var(--bg);
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 24px;
+    }
+
+    .navbar ul {
+        gap: 20px;
+    }
+
+    .navbar a {
+        font-size: 0.72rem;
+    }
+
+    .features {
+        padding: 80px 24px;
+    }
+
+    .contact-section {
+        padding: 80px 24px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar ul {
+        gap: 14px;
+    }
+
+    .hero-content h1 {
+        letter-spacing: -1px;
+    }
 }
