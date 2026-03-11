@@ -199,8 +199,8 @@ h2 {
 }
 
 .contact-section p {
-    margin-top: 20px;
-    font-size: 1.1rem;
+    margin-top: 10px;
+    font-size: 0.85rem;
     color: var(--text);
     opacity: 0.8;
 }
@@ -210,21 +210,49 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 14px;
+    width: 400px;
+    margin: 50px auto;
 }
 
 input {
-    width: 300px;
-    padding: 10px;
-    margin: 10px;
+    width: 100%;
+    padding: 14px 18px;
     border: none;
     outline: none;
+    background-color: #242424;
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-family: var(--mono);
+    font-size: 0.85rem;
 }
+
+input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(0, 255, 153, 0.1);
+}
+
 
 form button {
     padding: 10px 20px;
     border: none;
     background: var(--accent);
     cursor: pointer;
+    color: var(--bg);
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    transition: background 0.3s;
+    font-family: var(--mono);
+    width: 100%;
+}
+
+form button:hover {
+    background: var(--text);
+    color: var(--bg);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(62, 161, 153, 0.3);
 }
 
 /* FOOTER */
