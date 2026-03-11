@@ -270,7 +270,7 @@ form button {
     font-weight: 700;
     font-size: 1.1rem;
     border-radius: 4px;
-    transition: background 0.3s;
+    transition: 0.3s;
     font-family: var(--mono);
     width: 100%;
 }
@@ -284,7 +284,13 @@ form button:hover {
 
 /* FOOTER */
 footer {
-    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--border);
+    padding: 20px 40px;
     text-align: center;
     background: var(--bg);
+    font-size: 0.85rem;
 }
