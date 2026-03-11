@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400..800&display=swap');
 
-:root{
-    --accent : #00ff99;
-    --bg : #0d0d0d;
-    --surface : #0b0b0b;
-    --border : #2a2a2a;
-    --text : white;
-    --syne : 'Syne', sans-serif;
-    --mono : 'Space Mono', monospace;
+:root {
+    --accent: #00ff99;
+    --bg: #050505;
+    --surface: #0b0b0b;
+    --border: #2a2a2a;
+    --text: white;
+    --syne: 'Syne', sans-serif;
+    --mono: 'Space Mono', monospace;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,7 +35,7 @@ body {
     padding: 15px 40px;
     background: black;
     position: fixed;
-    top : 0;
+    top: 0;
     z-index: 1000;
     width: 100%;
     border-bottom: 1px solid var(--border);
@@ -67,16 +67,24 @@ body {
 .logo span {
     color: var(--text);
 }
+
 /* HERO */
 .hero {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, var(--bg), var(--surface));
     text-align: center;
     position: relative;
     overflow: hidden;
+
+    background-color: var(--bg);
+
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+
+    background-size: 60px 60px;
 }
 
 .hero-content {
@@ -140,23 +148,26 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 h2 {
     text-align: center;
-    padding: 60px 20px 20px;
+    padding: 0px 20px;
     font-family: var(--syne);
     font-size: 2.5rem;
     font-weight: 800;
 }
 
-.cardgrid { 
+.cardgrid {
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(3, 350px);
     justify-content: center;
     gap: 30px;
     padding: 30px 20px;
 }
+
 .card {
     background: #1a1a1a;
     padding: 36px 30px;
@@ -177,7 +188,7 @@ h2 {
 
 .card-icon {
     font-size: 1.5rem;
-    margin-bottom: 36px;
+    margin-bottom: 16px;
 }
 
 .card h3 {
@@ -195,10 +206,22 @@ h2 {
 
 /* CONTACT */
 .contact-section {
-    padding: 120px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     background: var(--bg);
     position: relative;
+    height: 100vh;
+
+    background-color: var(--bg);
+
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+
+    background-size: 60px 60px;
 }
 
 .contact-section p {
@@ -213,6 +236,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 14px;
     width: 400px;
     margin: 50px auto;
@@ -263,43 +287,4 @@ footer {
     padding: 20px;
     text-align: center;
     background: var(--bg);
-}
-
-
-@media (max-width: 768px) {
-    .navbar {
-        padding: 0 24px;
-    }
-
-    .navbar ul {
-        gap: 20px;
-    }
-
-    .navbar a {
-        font-size: 0.72rem;
-    }
-
-    .features {
-        padding: 80px 24px;
-    }
-
-    .contact-section {
-        padding: 80px 24px;
-    }
-
-    footer {
-        flex-direction: column;
-        text-align: center;
-        padding: 24px;
-    }
-}
-
-@media (max-width: 480px) {
-    .navbar ul {
-        gap: 14px;
-    }
-
-    .hero-content h1 {
-        letter-spacing: -1px;
-    }
 }
