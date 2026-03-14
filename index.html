@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Commit 3.0 Hard Mode</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -46,12 +47,16 @@
 
 </section>
 
-<section class="contact-section">
+<section id="contact" class="contact-section">
     <h2>Contact Us</h2>
     <form>
-        <input type="text" placeholder="Your Name">
-        <input type="email" placeholder="Your Email">
-        <button>Submit</button>
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Your Name" required>
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Your Email" required>
+
+        <button type="submit">Submit</button>
     </form>
 </section>
 
