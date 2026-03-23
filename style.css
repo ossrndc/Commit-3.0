@@ -60,7 +60,7 @@ body {
     transition: 0.3s;
 }
 
-.btn:hover {
+button:hover {
     background: white;
     color: black;
 }
@@ -78,7 +78,7 @@ body {
     background: #1a1a1a;
     padding: 30px;
     border-radius: 10px;
-    transition: 0.3s ease;
+    transition: 0.3s;
 }
 
 .card:hover {
@@ -111,7 +111,7 @@ input {
     width: 300px;
     padding: 10px;
     margin: 10px;
-    border: 2px solid #00ff99;
+    border: none;
     outline: none;
 }
 
